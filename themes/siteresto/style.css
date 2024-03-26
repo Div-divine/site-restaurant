@@ -1,0 +1,468 @@
+/*
+Theme Name: Site Restaurant Wordpress
+Theme URI: Your Theme URL
+Author: Divine Osuu
+Author URI: Your Author URL
+Description: site resto wordpress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: your-theme-textdomain
+*/
+.top-menu-container {
+    background-color: #000000;
+}
+
+.top-menu-items {
+    list-style: none;
+    /* Remove list-style dots */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Add any other styles you need */
+}
+
+.top-menu-items li a {
+    color: #ffffff;
+}
+
+.top-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-menu div {
+    width: 18%;
+}
+
+.top-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-items {
+    list-style: none;
+    /* Remove list-style dots */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Add any other styles you need */
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.header-menu-container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo-with-items-container {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo-with-items-container:first-child {
+    width: 60%;
+}
+
+.menu-items-container {
+    width: 35%;
+}
+
+.serach-field-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-carousel-container {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5em;
+    /* Adjust the font size as needed */
+    margin: 0;
+}
+
+.lire-plus-underline {
+    width: 80px;
+    height: 2px;
+    background-color: #7dc18d;
+}
+
+.latest-posts-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.first-imgs-top {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title-overlay {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.see-more-btn {
+    background-color: #000000;
+    color: white;
+    width: 200px;
+    padding: 7px;
+    border-radius: 16px;
+}
+
+.main-content {
+    flex: 1;
+    /* This will make the main content take up the remaining space */
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer {
+    background-color: #000000;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Add any other styles you need */
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.footer-menu-items {
+    list-style: none;
+    /* Remove list-style dots */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Add any other styles you need */
+}
+
+.footer-menu-items li a {
+    color: white;
+}
+
+.footer-menu-items-container {
+    width: 55%;
+}
+
+.image-mise-en-avant-container {
+    width: 500px;
+    height: auto;
+}
+
+.tag-links {
+    text-transform: uppercase;
+}
+
+.upper-dishes-container {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-content-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.upper-image-container {
+    width: 42%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upper-contents-container {
+    width: 53%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.acceuil-blog-title-container {
+    width: 100%;
+    font-size: 12px;
+    color: #8d8686;
+}
+
+.tag-links {
+    color: #39b739;
+}
+
+.tag-links:hover {
+    color: red;
+}
+
+.upper-icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.upper-title {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+}
+.ingredient-item ul {
+    list-style-type: none;
+}
+
+.ingredient-item ul li::before {
+    content: "\2713"; /* Unicode character for a check mark */
+    color: #39b739; /* Change the color to green */
+    font-weight: 700;
+    margin-right: 15px;
+}
+.instruction-item ul {
+    list-style-type: none;
+}
+.instruction-item ul li::before {
+    content: "\2022"; /* Unicode character for a dot (U+2022) */
+    font-size: 2em; /* Adjust the font size to make the dot larger */
+    margin-right: 0.5em; /* Adjust spacing as needed */
+    color: #39b739;
+
+}
+.lower-contents-container{
+    max-width: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: #fcf9f5;
+    border: 1px solid #f7e5cd;
+
+}
+.lower-img-title{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.line-between{
+    width: 620px;
+    height: 1px;
+    background-color: #d0c8c8;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+.line-between-first{
+    width: 700px;
+    height: 1px;
+    background-color: #d0c8c8;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+}
+.lower-title{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.heart-icon-in-circle{
+    width: 30px;
+    background-color:#e92f2f;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+}
+.facebook-icon-in-circle{
+    width: 30px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+}
+.twitter-icon-in-circle{
+    width: 30px;
+    background-color:#25a4f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+}
+.pinterest-icon-in-circle{
+    width: 30px;
+    height: auto;
+    background-color:#bd081c;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+}
+.lower-icons{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tags-content-container{
+    max-width: 1200px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tag-contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fcf9f5;
+    border: 1px solid #f7e5cd;
+    border-radius: 0px 12px 12px 0px;
+}
+.tag-thumbnail-container{
+    width: 35%;
+}
+.tag-title-except-container{
+    width: 62%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.tag-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.search-field{
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.search-field {
+    position: relative;
+}
+
+.search-field {
+    padding-left: 30px; /* Adjust the padding to make room for the icon */
+}
+
+.search-icon {
+    position: absolute;
+    top: 10.5%;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+
+
